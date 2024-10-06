@@ -5,6 +5,14 @@
     font-family: 'Arial', sans-serif;
 }
 
+:root {
+    --primary-color: #0B274F;
+    --secondary-color: #454545;
+    --tertiary-color: #626262;
+    --grey-color: #D9D9D9;
+    --white-color: #FFF;
+    --shade-color: #184787;
+}
 body {
     display:flex;
     justify-content: center;
@@ -110,7 +118,7 @@ button:hover {
 
 .info-section {
     width: 50%;
-    background-color: #0d47a1;
+    background-color: var(--primary-color);
     color: white;
     display: flex;
     flex-direction: column;
